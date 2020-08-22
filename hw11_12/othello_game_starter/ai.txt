@@ -1,0 +1,9 @@
+- my computer player will choose the best movement, i.e. the movement achieving the most flipping tiles.
+- I'll create a dictionary to store all the possible movements positions (row, col) as the keys for the
+computer player, and store the steps (the number of flipping tiles) and the opposite directions as items.
+When it comes to play, the computer player will compare all the steps and choose the best one, and apply
+the movement accordingly.
+- similar to the step II, the next move depends on which movement can flip the most tiles.
+- the ai_player loses pretty often
+- makes the weighing of corner piece more, so when the numbers of flipping tiles are same, ai_player should
+put the tile more towards the corner, since the edge tiles are unflippable

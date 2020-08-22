@@ -1,0 +1,10 @@
+- input_tile (board class):
+    valid input: (200, 100, 'white')
+    check board.disks
+        output: there's a disk object in the disks 2D list
+    invalid input: (350, 400, white)
+
+- is_valid (board class):
+    valid input: (1, 1)
+        output: False (since it's the initial four tiles)
+    invalid input: (4, 0)

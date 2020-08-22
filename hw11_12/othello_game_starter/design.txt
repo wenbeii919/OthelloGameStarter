@@ -1,0 +1,23 @@
+- classes:
+    disk: 
+    - Represents a single disk/tile; each disk has its own x, y coordinates and the color.
+
+    board
+    - Represents a board which displays the gridlines, disks, and counts tiles of different colors.
+    - Implements a method of inputting disks by the players; called by the players object
+    - A is_valid method to validate players' movements
+
+    players
+    - Represents all the players(two)
+    - Inherits board class so the input_tiles method can be called by the players
+    - A value is used for players to take turns
+
+    game_controller
+    - Inherits board class, so that it shares the same board with the players class
+    - A method for showing the score
+    - Updates all the results by the end of the game
+
+    (for the part 2)
+    AI
+    - Represents the computer player
+    - Calls is_valid method from board class to see what movements can AI player make
